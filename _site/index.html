@@ -1,468 +1,461 @@
 <!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.2.1
+    Copyright 2016-2019 Sylhare
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link rel="icon" href="/jekyll-theme-memoirs/assets/images/logo.png">
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer=true src="/Type-on-Strap/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Type-on-Strap/assets/css/main.css">
 
-<title>Home | Memoirs</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/Type-on-Strap/assets/favicon.ico" type="image/x-icon">
 
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Home | Memoirs</title>
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/Type-on-Strap/">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Type on Strap" href="http://localhost:4000/Type-on-Strap/feed.xml"/>
+    
+    
+
+    <!-- KaTeX 0.8.3 -->
+    <!-- if you have any issue check https://github.com/KaTeX/KaTeX -->
+    
+    <script src="/Type-on-Strap/assets/js/vendor/katex.min.js"></script>
+    
+
+    <!-- Google Analytics -->
+    
+    <!-- End Google Analytics -->
+
+    <!-- seo tags -->
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Type on Strap | A website with blog posts and pages</title>
 <meta name="generator" content="Jekyll v4.1.0" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Type on Strap" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!" />
-<meta property="og:description" content="I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!" />
-<link rel="canonical" href="http://localhost:4000/jekyll-theme-memoirs/" />
-<meta property="og:url" content="http://localhost:4000/jekyll-theme-memoirs/" />
-<meta property="og:site_name" content="Memoirs" />
-<link rel="next" href="http://localhost:4000/jekyll-theme-memoirs/page2/" />
+<meta name="description" content="A website with blog posts and pages" />
+<meta property="og:description" content="A website with blog posts and pages" />
+<link rel="canonical" href="http://localhost:4000/Type-on-Strap/" />
+<meta property="og:url" content="http://localhost:4000/Type-on-Strap/" />
+<meta property="og:site_name" content="Type on Strap" />
+<link rel="next" href="http://localhost:4000/Type-on-Strap/blog/page2" />
 <script type="application/ld+json">
-{"headline":"Home","url":"http://localhost:4000/jekyll-theme-memoirs/","name":"Memoirs","description":"I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/jekyll-theme-memoirs/assets/images/logo.png"}},"@type":"WebSite","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/Type-on-Strap/","headline":"Type on Strap","name":"Type on Strap","description":"A website with blog posts and pages","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    
-<link href="/jekyll-theme-memoirs/assets/css/prism.css" rel="stylesheet">
-
-<link href="/jekyll-theme-memoirs/assets/css/theme.css" rel="stylesheet">
-
-<script src="/jekyll-theme-memoirs/assets/js/jquery.min.js"></script>
-
+    <meta property="og:image" content="http://localhost:4000/Type-on-Strap/assets/img/pexels/triangular.jpeg " />
 </head>
 
+  <body>
+    <header class="site-header">
 
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/Type-on-Strap/">
+			<img alt="logo img" class="avatar" src="/Type-on-Strap/assets/img/triangle.png" />
+		</a>
+        
 
+		<h1 class="site-title">
+			<a aria-label="Type on Strap" href="/Type-on-Strap/">
+        Type on Strap
+      </a>
+		</h1>
+	</div>
 
-<body>
-	<!-- defer loading of font and font awesome -->
-	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	</noscript>
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
 
-<!-- Begin Sidebar Navigation
-================================================== -->
+    <!-- Menu -->
+    <ul class="hide">
+        
 
-<div class="sidebar">    
-</div>   
-<div class="nav-icon">
-    <div class="hamburger-bar"></div>
-</div>
-<div id="blackover-nav" class="blackover"></div>
-<nav id="menu">
-    <ul>
-        <h3>Navigation</h3>
-        <li><a href="/jekyll-theme-memoirs/">Home</a></li>
-        <li><a href="/jekyll-theme-memoirs/about">About <span class="badge badge-primary">Memoirs Jekyll Theme</span></a></li>
-        <li><a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/">Get Memoirs</a></li>      
-        <li><a href="/jekyll-theme-memoirs/contact">Contact</a></li>       
-    </ul>   
-</nav>
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About" title="About" href="/Type-on-Strap/about/">
+                     About 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Gallery" title="Gallery" href="/Type-on-Strap/gallery/">
+                     Gallery 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Portfolio" title="Portfolio" href="/Type-on-Strap/portfolio/">
+                     Portfolio 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/Type-on-Strap/search/">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/Type-on-Strap/tags/">
+                     <i class="fa fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </ul>
 
-<script src="/jekyll-theme-memoirs/assets/js/lunr.js"></script>
+	</nav>
+</header>
 
-<style>
-    
-</style>
+    <div class="content">
+      <div class="home">
 
-<div class="wrap-search">
-    <div class="d-flex align-items-center ml-auto">
-        <i class="fas fa-search show-search"></i>
-        <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-            <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
-        </form>
+    <div id="main" class="call-out"
+         style="background-image: url('/Type-on-Strap/assets/img/pexels/triangular.jpeg')">
+        <h1> Change <code>header_text</code> in <code>_config.yml</code> </h1>
     </div>
-</div>
 
-<div id="lunrsearchresults">
-    <ul></ul>
-</div>
-
-<script src="/jekyll-theme-memoirs/assets/js/lunrsearchengine.js"></script>
-
-
-<!-- End Sidebar Navigation
-================================================== -->
-
-<div class="site-content  firstpage ">
-
-<div class="container">
-
-    <!-- Site Logo/Name
-    ================================================== -->
-   
-    <a class="navbar-brand" href="/jekyll-theme-memoirs/">
-        <img src="/jekyll-theme-memoirs/assets/images/logo.png" alt="Memoirs">
-    </a>  
-   
-
-    <!-- Site Tag
-    ================================================== -->
+    <div class="posts">
     
-        <p class="sitetag">
-            I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!
-        </p>
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h1>
+              <a aria-label="Sample post" class="post-link" href="/Type-on-Strap/2019/06/30/sample-post.html">
+                Sample post
+              </a>
+            </h1>
+            
+
+
+<div class="post-info">
+    <p class="meta">
+      June 30, 2019
+    </p></div>
+
+          </header>
+          
+              <div class="excerpt">
+                  
+                     Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 
+Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.
+
+                  
+              </div>
+          
+      </span>
+    </div>
     
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h1>
+              <a aria-label="Color Post" class="post-link" href="/Type-on-Strap/2019/05/18/color-post.html">
+                Color Post
+              </a>
+            </h1>
+            
 
-    <!-- Content
-    ================================================== -->
-    <div class="main-content">
-        <!-- Posts Index
-================================================== -->
-<div class="blog-grid-container">
+
+<div class="post-info"><a href="https://github.com/sylhare" target="_blank">
+      <img src="/Type-on-Strap/assets/img/avatars/sylhare_avatar.png">
     
-        <!-- begin post -->
+    <p class="meta">
+      Sylhare - May 18, 2019
+    </p></a></div>
+
+          </header>
+          
+              <div class="excerpt">
+                  
+                     What a colorful post!
+
+This is an idea that came from xukimseven/HardCandy-Jekyll 
+looking at this cheerful and colorful them, I wanted to enable something similar for mine.
+
+You can go fork and star hers too! 😉
 
 
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/jekyll-theme-memoirs/les-ambassadeurs/">
-                
-
-                    
-                        <img class="img-thumb" src="/jekyll-theme-memoirs/assets/images/2.jpg" alt="Les Ambassadeurs, the first Restaurant we Visited in Paris"> 
-                    
-
-                
+                  
+              </div>
+          
+      </span>
+    </div>
+    
+    <div class="post-teaser">
+        
+        <div class="post-img">
+            <a aria-label="Feature images" href="/Type-on-Strap/2014/11/29/feature-images.html">
+                <img alt="Feature images" src="/Type-on-Strap/assets/img/thumbnails/desk-messy.jpeg">
             </a>
         </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/jekyll-theme-memoirs/les-ambassadeurs/">Les Ambassadeurs, the first Restaurant we Visited in Paris</a>
-                
-                <div class="mb-2 mt-2 font-weight-normal">
-                <div class="rating-holder">
-<div class="c-rating c-rating--regular" data-rating-value="4.5">
-  <button>1</button>
-  <button>2</button>
-  <button>3</button>
-  <button>4</button>
-  <button>5</button>
-</div>
-</div>
-                </div>
-                
-            </h2>
-            <h4 class="card-text">Within the Hôtel de Crillon, which was built in 1758, Les Ambassadeurs operated as a restaurant since the mid-19th century. It reached its peak of fame as a restaurant and...</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&d=mm&r=x" alt="Sal">
-                
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net/donate/">Sal</a></span> 
-                
-                <span class="post-date">02 Feb 2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+        
+        <span>
+          <header>
+            <h1>
+              <a aria-label="Feature images" class="post-link" href="/Type-on-Strap/2014/11/29/feature-images.html">
+                Feature images
+              </a>
+            </h1>
+            
+
+
+<div class="post-info">
+    <p class="meta">
+      November 29, 2014
+    </p></div>
+
+          </header>
+          
+              <div class="excerpt">
+                  
+                     Hopefully you will find enough information about how to set images in your blog here.
+This is an example of a post which includes a feature image specified in the front matter of the post. 
+The feature image spans the full-width of the page, and is shown with the title on permalink pages:
+
+                  
+              </div>
+          
+      </span>
     </div>
-</div>
-<!-- end post -->
     
-        <!-- begin post -->
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h1>
+              <a aria-label="Markdown and HTML" class="post-link" href="/Type-on-Strap/2014/11/28/markdown-and-html.html">
+                Markdown and HTML
+              </a>
+            </h1>
+            
 
 
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/jekyll-theme-memoirs/much-more-than-a-desert-trip-to-sahara/">
-                
+<div class="post-info"><a href="https://github.com/rohanchandra" target="_blank">
+      <img src="https://avatars2.githubusercontent.com/u/816965?s=460&v=4">
+    
+    <p class="meta">
+      Rohan Chandra - November 28, 2014
+    </p></a></div>
 
-                    
-                        <img class="img-thumb" src="/jekyll-theme-memoirs/assets/images/16.jpg" alt="Much more than a desert: A trip into the Sahara"> 
-                    
+          </header>
+          
+              <div class="excerpt">
+                  
+                     Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.
 
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/jekyll-theme-memoirs/much-more-than-a-desert-trip-to-sahara/">Much more than a desert: A trip into the Sahara</a>
-                
-            </h2>
-            <h4 class="card-text">The Sahara is a desert located on the African continent. It is the largest hot desert in the world, and the third largest desert overall after Antarctica and the Arctic....</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/jekyll-theme-memoirs/assets/images/avatar.png" alt="John">
-                
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net">John</a></span> 
-                
-                <span class="post-date">01 Feb 2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+                  
+              </div>
+          
+      </span>
     </div>
-</div>
-<!-- end post -->
     
-        <!-- begin post -->
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h1>
+              <a aria-label="What's your title" class="post-link" href="/Type-on-Strap/2014/11/27/whats-your-title.html">
+                What's your title
+              </a>
+            </h1>
+            
 
 
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/jekyll-theme-memoirs/one-day-just-started-adventure/">
-                
+<div class="post-info">
+      <img src="/Type-on-Strap/assets/img/avatars/mhagnumdw_avatar.jpg">
+    
+    <p class="meta">
+      Mhagnumdw - November 27, 2014
+    </p></div>
 
-                    
-                        <img class="img-thumb" src="/jekyll-theme-memoirs/assets/images/15.jpg" alt="One day we just started our adventure"> 
-                    
+          </header>
+          
+              <div class="excerpt">
+                  
+                     This is an example of a post which includes a feature image that has a
+text, where you don’t want to redisplay the title.
+Mind your image size in order for the text to be displayed where you want it to.
+The only limit is your imagination.
 
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/jekyll-theme-memoirs/one-day-just-started-adventure/">One day we just started our adventure</a>
-                
-            </h2>
-            <h4 class="card-text">The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.
-</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&d=mm&r=x" alt="Sal">
-                
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net/donate/">Sal</a></span> 
-                
-                <span class="post-date">12 Jan 2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+                  
+              </div>
+          
+      </span>
     </div>
-</div>
-<!-- end post -->
-    
-        <!-- begin post -->
-
-
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/jekyll-theme-memoirs/london/">
-                
-
-                    
-                        <img class="img-thumb" src="/jekyll-theme-memoirs/assets/images/9.jpg" alt="London is that kind of place you must visit in this lifetime"> 
-                    
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/jekyll-theme-memoirs/london/">London is that kind of place you must visit in this lifetime</a>
-                
-            </h2>
-            <h4 class="card-text">The Queen’s Guard and Queen’s Life Guard (called King’s Guard and King’s Life Guard when the reigning monarch is male) are the names given to contingents of infantry and cavalry...</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/jekyll-theme-memoirs/assets/images/avatar.png" alt="John">
-                
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net">John</a></span> 
-                
-                <span class="post-date">12 Jan 2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-    
-        <!-- begin post -->
-
-
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/jekyll-theme-memoirs/external-featured-image/">
-                
-
-                    
-                        <img class="img-thumb" src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="Memoirs supports external images as featured"> 
-                    
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/jekyll-theme-memoirs/external-featured-image/">Memoirs supports external images as featured</a>
-                
-            </h2>
-            <h4 class="card-text">Adding images is a very annoying task, I know that, but “Memoirs” theme has external featured images integrated so your publishing task becomes easier now.
-</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&d=mm&r=x" alt="Sal">
-                
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net/donate/">Sal</a></span> 
-                
-                <span class="post-date">12 Jan 2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-    
-        <!-- begin post -->
-
-
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/jekyll-theme-memoirs/post-with-spoiler/">
-                
-
-                    
-                        <img class="img-thumb" src="/jekyll-theme-memoirs/assets/images/12.jpg" alt="Spoliers Inside - a film review needs hidden spoilers like this post"> 
-                    
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/jekyll-theme-memoirs/post-with-spoiler/">Spoliers Inside - a film review needs hidden spoilers like this post</a>
-                
-            </h2>
-            <h4 class="card-text">Director Roland Suso Richter’s enigmatic psychological thriller (direct to video/DVD) was based upon screenwriter Michael Cooney’s own play “Point of Death” - a title that gave away the film’s entire...</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/jekyll-theme-memoirs/assets/images/avatar.png" alt="John">
-                
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.wowthemes.net">John</a></span> 
-                
-                <span class="post-date">11 Jan 2020</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
     
 </div>
 
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<span class="navigation" role="navigation">
-    
+
 <div class="pagination">
-  
-    <span>&laquo; </span>
-  
-
-  
-    
-      <span class="ml-1 mr-1">1</span>
-    
-  
-    
-      <a class="ml-1 mr-1" href="/jekyll-theme-memoirs/page2/">2</a>
-    
-  
-
-  
-    <a class="ml-1 mr-1" href="/jekyll-theme-memoirs/page2/"> &raquo;</a>
-  
-</div>
-
-</span>
-</div>
-
-
+    <div class="previous">
+        
+        
+        
+        <!-- < previous -->
+        <a aria-label="Prev" href=""
+           style="visibility:hidden" class="button">
+            <span><i class="fa fa-chevron-left"></i></span>
+            Prev
+        </a>
     </div>
 
-    
-    <!-- Newsletter
-    ================================================== -->
-    <div class="newsletter text-center">
-        <span class="h4"><img src="/jekyll-theme-memoirs/assets/images/logo.png" class="newsletter-logo" alt="Memoirs"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-            <div class="mc-field-group d-inline-flex">
-            <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
-            </div>
-        </form>
+    <div class="page_number">
+        1 / 2
     </div>
-    
-    
+
+    <div class="next">
+        
+        <!-- next > -->
+        <a aria-label="Next" href="/Type-on-Strap/blog/page2"
+            class="button">
+            Next
+            <span><i class="fa fa-chevron-right"></i></span>
+        </a>
+
+        
+        
+    </div>
 </div>
 
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                Copyright © 2020 Memoirs 
-            </div>
-            <div class="col-md-6 col-sm-12 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
-            </div>
-        </div>
+
+
+
+</div>
+
     </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="feed.xml"
+       title="Follow RSS feed">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+    <a href="https://github.com/sylhare" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
 </footer>
-<!-- End Footer
-================================================== -->
-
-</div> <!-- /.site-content -->
-
-<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
-================================================== -->
-
-<script src="/jekyll-theme-memoirs/assets/js/prism.js"></script>
-
-<script src="/jekyll-theme-memoirs/assets/js/theme.js"></script>
 
 
 
-
-
-</body>
+  </body>
 </html>

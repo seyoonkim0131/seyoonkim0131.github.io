@@ -2,17 +2,30 @@
 layout: default
 ---
 
-<div class="page-single">
-    <div class="entry-header">       
-        <h1 class="posttitle">{{ page.title }}</h1>        
-    </div>
-</div>
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
 
-<!-- Featured Image -->
-{% include featured-image.html %}
+  <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
+    <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title">
+    {{ page.title }}
+    </h1>
+    {% if page.subtitle %}
+    <h2 class="subtitle">{{ page.subtitle }}</h2>
+    {% endif %}
+  </header>
 
-<!-- Content -->
-{% include article.html %}
+  <section class="post-content">
+  {% if page.bootstrap %}
+  <div class="bootstrap-iso">
+  {% endif %}
+	{{ content }}
+  {% if page.bootstrap %}
+  </div>
+  {% endif %}
+  </section>
 
-<!-- Comments if not disabled with comments: false -->
-{% include comments.html %}
+
+  <!-- Tag list for portfolio -->
+  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+  {% include tags_list.html tags=tag_list %}
+
+</article>
