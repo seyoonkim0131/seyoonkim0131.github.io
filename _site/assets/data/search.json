@@ -104,109 +104,121 @@
   
   {
   
-  "title"    : "Ninja",
+  "title"    : "인트라넷 유지 보수",
   "category" : "",
-  "tags"     : " Lorem",
-  "url"      : "/portfolio/ninja",
-  "date"     : "April 8, 2014",
-  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem qu...",
-  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  "tags"     : " Java, JSP, Javascript, MySQL, Tomcat, SVN, Portfolio",
+  "url"      : "/portfolio/intra",
+  "date"     : "July 21, 2014",
+  "excerpt"  : "\n\n신입사원 교육을 위한 프로젝트로, 실제 운영 중인 인트라넷에 댓글 시스템을 구현하고, 요구 사항을 수정하여 반영하는 프로젝트를 수행하였습니다. 동기 2명과 함께 진행했고, 프론트엔드, 백엔드 모두 개발하였습니다. 실제 사이트로 나가기 전에 업무의 방법을 익힐 수 있는 프로젝트였습니다.\n",
+  "content"  : "\n\n신입사원 교육을 위한 프로젝트로, 실제 운영 중인 인트라넷에 댓글 시스템을 구현하고, 요구 사항을 수정하여 반영하는 프로젝트를 수행하였습니다. 동기 2명과 함께 진행했고, 프론트엔드, 백엔드 모두 개발하였습니다. 실제 사이트로 나가기 전에 업무의 방법을 익힐 수 있는 프로젝트였습니다.\n"
   
 } ,
   
   {
   
-  "title"    : "Creative",
+  "title"    : "LG전자 ERP시스템 SM 지원",
   "category" : "",
-  "tags"     : " Ipsum",
-  "url"      : "/portfolio/safe",
-  "date"     : "August 16, 2014",
-  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia...",
-  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\nUse this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!\n"
+  "tags"     : " Java, Javascript, Oracle ERP, Oracle, Tomcat, SVN, Portfolio",
+  "url"      : "/portfolio/erp",
+  "date"     : "August 25, 2014",
+  "excerpt"  : "\n\nLG전자 ERP 시스템 중 HR 시스템의 유지 보수를 지원했습니다. Oracle ERP를 이용한 시스템으로, 버그 수정과 화면 수정 등의 지원 업무를 맡았습니다. HR 시스템 중 급여, 근태, 복리후생 등의 시스템을 경험했습니다. 또한 Java 기반의 HR 시스템에서 평가 페이지 개선 작업에도 참여했습니다.\n",
+  "content"  : "\n\nLG전자 ERP 시스템 중 HR 시스템의 유지 보수를 지원했습니다. Oracle ERP를 이용한 시스템으로, 버그 수정과 화면 수정 등의 지원 업무를 맡았습니다. HR 시스템 중 급여, 근태, 복리후생 등의 시스템을 경험했습니다. 또한 Java 기반의 HR 시스템에서 평가 페이지 개선 작업에도 참여했습니다.\n"
   
 } ,
   
   {
   
-  "title"    : "Circus",
+  "title"    : "히타치 엘지 데이터 스토리지 HR 시스템 유지 보수",
   "category" : "",
-  "tags"     : " Ipsum",
-  "url"      : "/portfolio/circus",
-  "date"     : "September 1, 2014",
-  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem qu...",
-  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  "tags"     : " Java, JSP, Javascript, Oracle, PL/SQL, Tomcat, SVN, Portfolio",
+  "url"      : "/portfolio/hlds",
+  "date"     : "September 7, 2015",
+  "excerpt"  : "\n\n히타치 엘지 데이터 스토리지(HLDS)의 HR 시스템 유지 보수를 맡았습니다. 2015년 연말정산을 Oracle 패키지로 개발하였고, HLDS의 HR 홈페이지 버그 수정과 요청사항 반영 및 정기 점검을 담당했습니다.\n",
+  "content"  : "\n\n히타치 엘지 데이터 스토리지(HLDS)의 HR 시스템 유지 보수를 맡았습니다. 2015년 연말정산을 Oracle 패키지로 개발하였고, HLDS의 HR 홈페이지 버그 수정과 요청사항 반영 및 정기 점검을 담당했습니다.\n"
   
 } ,
   
   {
   
-  "title"    : "Tower of Hanoi",
+  "title"    : "E1 채용사이트 구축",
   "category" : "",
-  "tags"     : " ",
-  "url"      : "/portfolio/hanoi",
-  "date"     : "September 1, 2014",
-  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem qu...",
-  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  "tags"     : " Java, JSP, Javascript, MSSQL, Tomcat, SVN, Portfolio",
+  "url"      : "/portfolio/recruitment",
+  "date"     : "April 4, 2016",
+  "excerpt"  : "\n\nE1 채용사이트의 신규 구축 프로젝트에서 이력서 작성, 심사위원 평가 페이지 개발을 담당했습니다. 디자이너가 작업한 화면을 보고 프론트엔드를 구성하고, 백엔드 코드를 작성했습니다.\n",
+  "content"  : "\n\nE1 채용사이트의 신규 구축 프로젝트에서 이력서 작성, 심사위원 평가 페이지 개발을 담당했습니다. 디자이너가 작업한 화면을 보고 프론트엔드를 구성하고, 백엔드 코드를 작성했습니다.\n"
   
 } ,
   
   {
   
-  "title"    : "Tic tac toe",
+  "title"    : "숭실대학교 IT정책경영학과 홈페이지 제작",
   "category" : "",
-  "tags"     : " ",
-  "url"      : "/portfolio/tictactoe",
-  "date"     : "September 1, 2014",
-  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia...",
-  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  "tags"     : " Java, Spring Framework, JSP, CSS, Bootstrap, MySQL, AWS, Git, Portfolio",
+  "url"      : "/portfolio/itpm",
+  "date"     : "January 9, 2017",
+  "excerpt"  : "\n\n대학원 재학 중에 교수님의 소개로 대학원 홈페이지를 제작했습니다. 홈페이지는 대학원의 기본적인 정보와 공지사항 등을 볼 수 있는 게시판과 원우들의 연락처 정보를 확인할 수 있는 원우 수첩으로 구성되어 있습니다.\n1월부터 교수님과 기획회의를 시작하여 개발은 2월부터 시작했습니다. 팀은 총 4명으로 디자이너 1명과 개발자 3명이었습니다. 저는 개발 환경 세팅과 팀원 교육, 프론트엔드, 백엔드, 데이터베이스 구성을 맡았습니다. 이 홈페이지는...",
+  "content"  : "\n\n대학원 재학 중에 교수님의 소개로 대학원 홈페이지를 제작했습니다. 홈페이지는 대학원의 기본적인 정보와 공지사항 등을 볼 수 있는 게시판과 원우들의 연락처 정보를 확인할 수 있는 원우 수첩으로 구성되어 있습니다.\n1월부터 교수님과 기획회의를 시작하여 개발은 2월부터 시작했습니다. 팀은 총 4명으로 디자이너 1명과 개발자 3명이었습니다. 저는 개발 환경 세팅과 팀원 교육, 프론트엔드, 백엔드, 데이터베이스 구성을 맡았습니다. 이 홈페이지는 Java 기반으로 Spring Framework를 사용했고, 반응형 웹 페이지 구현을 위하여 Bootstrap을 사용했습니다. 서버는 아마존 웹 서비스에 Ubuntu를 설치하여 구성했고, 데이터베이스는 MySQL을 사용했고, 버전관리를 위해 Git을 사용했습니다. 개발은 약 8개월이 소요되었고 그 후 유지 보수를 담당하다가 졸업 후 인수인계했습니다.\n홈페이지\n"
   
 } ,
   
   {
   
-  "title"    : "Cake",
+  "title"    : "팀매니저 개선 프로젝트",
   "category" : "",
-  "tags"     : " Lorem, Ipsum, Portfolio",
-  "url"      : "/portfolio/cake",
-  "date"     : "September 27, 2015",
-  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia...",
-  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\nUse this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!\n"
+  "tags"     : " React.js, Python, Django, MySQL, AWS, Bitbucket, Portfolio",
+  "url"      : "/portfolio/teammanager",
+  "date"     : "July 15, 2018",
+  "excerpt"  : "\n\n축구 팀의 팀 관리와 선수 관리를 위한 시스템을 개선하는 프로젝트였습니다. \n디자이너가 작업한 화면을 보고 프론트엔드를 구성하는 작업을 맡았습니다. 백엔드는 Python으로 Django를 사용했고 버전관리는 Bitbucket을 사용했습니다.\n",
+  "content"  : "\n\n축구 팀의 팀 관리와 선수 관리를 위한 시스템을 개선하는 프로젝트였습니다. \n디자이너가 작업한 화면을 보고 프론트엔드를 구성하는 작업을 맡았습니다. 백엔드는 Python으로 Django를 사용했고 버전관리는 Bitbucket을 사용했습니다.\n"
   
 } ,
   
   {
   
-  "title"    : "Jekyll",
+  "title"    : "스카우트 매니저 신규개발 프로젝트",
   "category" : "",
-  "tags"     : " ",
-  "url"      : "/portfolio/jekyllblog",
-  "date"     : "May 26, 2017",
-  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia...",
-  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  "tags"     : " React.js, React Native, GraphQL, PostgreSQL, GCP, Bitbucket, Portfolio",
+  "url"      : "/portfolio/mobile",
+  "date"     : "October 1, 2018",
+  "excerpt"  : "\n\n스카우터를 위한 선수 평가 애플리케이션과 웹 페이지를 개발하는 프로젝트로, 프론트엔드를 맡아 개발했습니다.\n웹페이지는 React.js로, 태블릿 애플리케이션은 React-Native로 개발했습니다. 모든 팀원이 기획회의에 참여했고, 회의를 토대로 만든 디자이너의 화면을 보고 작업했습니다. 개발 중에도 지속적으로 소통하여 수정하며 개발했습니다.\n화면 이동은 Navigation을 사용하고 Apollo를 사용하여 백엔드와 연결했습니다. 특히...",
+  "content"  : "\n\n스카우터를 위한 선수 평가 애플리케이션과 웹 페이지를 개발하는 프로젝트로, 프론트엔드를 맡아 개발했습니다.\n웹페이지는 React.js로, 태블릿 애플리케이션은 React-Native로 개발했습니다. 모든 팀원이 기획회의에 참여했고, 회의를 토대로 만든 디자이너의 화면을 보고 작업했습니다. 개발 중에도 지속적으로 소통하여 수정하며 개발했습니다.\n화면 이동은 Navigation을 사용하고 Apollo를 사용하여 백엔드와 연결했습니다. 특히 백엔드는 Typescript로 개발되어 Javascript와 Typescript 모두 사용해볼 수 있었습니다. 버전관리는 Bitbucket을 사용했습니다.\n"
   
 } ,
   
   {
   
-  "title"    : "Lorem Ipsum",
+  "title"    : "생육측정 모바일 웹 개선 프로젝트",
   "category" : "",
-  "tags"     : " ",
-  "url"      : "/portfolio/submarine",
-  "date"     : "September 3, 2017",
-  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia...",
-  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\nUse this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!\n\n"
+  "tags"     : " Python, Flask, Javascript, SQLite, Portfolio",
+  "url"      : "/portfolio/agriculture",
+  "date"     : "May 15, 2019",
+  "excerpt"  : "\n\n토마토, 딸기와 같은 하우스 농작물을 대상으로 작물을 사진으로 촬영해 더 잘 자랄 수 있도록 분석해 주는 시스템을 개선하는 프로젝트입니다.\n주로 외주 개발사에서 개발을 진행했고, 저는 현장에서 수집한 요구 사항을 전달하고 급하고 간단한 사항은 직접 수정했습니다. Python은 Flask를 사용했고 주로 Javascript 수정을 담당했습니다.\n",
+  "content"  : "\n\n토마토, 딸기와 같은 하우스 농작물을 대상으로 작물을 사진으로 촬영해 더 잘 자랄 수 있도록 분석해 주는 시스템을 개선하는 프로젝트입니다.\n주로 외주 개발사에서 개발을 진행했고, 저는 현장에서 수집한 요구 사항을 전달하고 급하고 간단한 사항은 직접 수정했습니다. Python은 Flask를 사용했고 주로 Javascript 수정을 담당했습니다.\n"
   
 } ,
   
   {
   
-  "title"    : "Github",
+  "title"    : "농업 정보 통합 분석 및 환경 플랫폼 개발 프로젝트",
   "category" : "",
-  "tags"     : " Lorem, Portfolio",
-  "url"      : "/portfolio/gitlecture",
-  "date"     : "October 20, 2017",
-  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem qu...",
-  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  "tags"     : " Python, Flask, Javascript, Portfolio",
+  "url"      : "/portfolio/analytics",
+  "date"     : "July 1, 2019",
+  "excerpt"  : "\n\n농장에서 수집한 생육 데이터를 분석한 이력을 확인하고, 생육 데이터를 학습시키는 플랫폼을 개발했습니다.\n저는 화면 디자인과 프론트엔드 개발을 맡았습니다. 백엔드는 Python으로 Flask를 사용했고, 프론트엔드에서 화면을 바꿀 수 있을 만큼만 개발했습니다. 웹 페이지는 반응형 웹으로 개발하기 위해 Bootstrap을 사용했습니다.\n",
+  "content"  : "\n\n농장에서 수집한 생육 데이터를 분석한 이력을 확인하고, 생육 데이터를 학습시키는 플랫폼을 개발했습니다.\n저는 화면 디자인과 프론트엔드 개발을 맡았습니다. 백엔드는 Python으로 Flask를 사용했고, 프론트엔드에서 화면을 바꿀 수 있을 만큼만 개발했습니다. 웹 페이지는 반응형 웹으로 개발하기 위해 Bootstrap을 사용했습니다.\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "퇴근 타이머 애플리케이션 개발 프로젝트",
+  "category" : "",
+  "tags"     : " React Native, Typescript, GraphQL, Heroku, PostgreSQL, Git, Portfolio",
+  "url"      : "/portfolio/alarm",
+  "date"     : "March 2, 2020",
+  "excerpt"  : "\n\n애플리케이션 개발을 공부하기 위해 시작한 프로젝트입니다. 출근, 퇴근시간을 입력받아 퇴근까지 남은 시간과 이번 달에 총 일한 시간 등을 알려주는 애플리케이션입니다.\n프론트엔드는 React-Native를 사용하고, Expo를 이용해 세팅했습니다. 백엔드는 GraphQL을 사용하는데 Typescript로 개발했습니다. 데이터베이스는 PostrgreSQL을 사용하고, 서버는 Heroku를 사용했습니다. 디자인은 Figma로 작업했습니다.\n현...",
+  "content"  : "\n\n애플리케이션 개발을 공부하기 위해 시작한 프로젝트입니다. 출근, 퇴근시간을 입력받아 퇴근까지 남은 시간과 이번 달에 총 일한 시간 등을 알려주는 애플리케이션입니다.\n프론트엔드는 React-Native를 사용하고, Expo를 이용해 세팅했습니다. 백엔드는 GraphQL을 사용하는데 Typescript로 개발했습니다. 데이터베이스는 PostrgreSQL을 사용하고, 서버는 Heroku를 사용했습니다. 디자인은 Figma로 작업했습니다.\n현재 50% 정도 개발되었고, 완성하여 앱스토어에 등록하는 것이 목표입니다.\n"
   
 } 
   
