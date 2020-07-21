@@ -1,0 +1,33 @@
+I"�<blockquote>
+  <p>참고 사이트 <br /><a href="https://reactnative.dev/">https://reactnative.dev/</a></p>
+</blockquote>
+
+<h1 id="사전-준비">사전 준비</h1>
+<figure style="width: 100px" class="align-left">
+  <img src="http://localhost:4000/assets/images/nodejs.png" alt="" />
+  <figcaption>Itty-bitty caption.</figcaption>
+</figure>
+<dl>
+  <dt>Node.js 설치</dt>
+  <dd><a href="https://nodejs.org/ko/">https://nodejs.org/ko/</a></dd>
+  <dt>💻 VSCode 설치</dt>
+  <dd><a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></dd>
+</dl>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">search</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">search: false</code> only works to exclude posts when using Lunr as a search provider.</p>
+
+<p>To exclude files when using Algolia as a search provider add an array to <code class="language-plaintext highlighter-rouge">algolia.files_to_exclude</code> in your <code class="language-plaintext highlighter-rouge">_config.yml</code>. For more configuration options be sure to check their <a href="https://community.algolia.com/jekyll-algolia/options.html">full documentation</a>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">algolia</span><span class="pi">:</span>
+  <span class="c1"># Exclude more files from indexing</span>
+  <span class="na">files_to_exclude</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">index.html</span>
+    <span class="pi">-</span> <span class="s">index.md</span>
+    <span class="pi">-</span> <span class="s">excluded-file.html</span>
+    <span class="pi">-</span> <span class="s">_posts/2017-11-28-post-exclude-search.md</span>
+    <span class="pi">-</span> <span class="s">subdirectory/*.html</span>
+</code></pre></div></div>
+:ET

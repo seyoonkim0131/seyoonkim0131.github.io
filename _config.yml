@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Seyoon KIM"
 title_separator          : "-"
-subtitle                 : subtitle # site tagline that appears below site title in masthead
+subtitle                 : #subtitle # site tagline that appears below site title in masthead
 name                     : "Seyoon Kim"
 description              : "An amazing website."
 url                      : "https://seyoonkim0131.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
