@@ -1,0 +1,17 @@
+I"�<blockquote>
+  <p>참고 사이트 <br /><a href="https://reactnative.dev/">https://reactnative.dev/</a></p>
+</blockquote>
+
+<h1 id="사전-준비">사전 준비</h1>
+
+<dl>
+  <dt><img src="http://localhost:4000/assets/images/homebrew.png" style="width: 20px;" />  Homebrew 설치</dt>
+  <dd><a href="https://brew.sh/"><small>홈페이지로 이동</small></a><br /></dd>
+  <dt>Yarn 설치</dt>
+  <dd><a href="https://nodejs.org/"><small>홈페이지로 이동</small></a><br /></dd>
+  <dt><img src="http://localhost:4000/assets/images/nodejs.png" style="width: 20px;" />  Node.js 설치</dt>
+  <dd><a href="https://nodejs.org/"><small>홈페이지로 이동</small></a><br /></dd>
+  <dt><img src="http://localhost:4000/assets/images/vscode.png" style="width: 20px;" />  VSCode 설치</dt>
+  <dd><a href="https://code.visualstudio.com/"><small>홈페이지로 이동</small></a><br /></dd>
+</dl>
+:ET

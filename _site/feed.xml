@@ -1,15 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-21T23:45:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Seyoon KIM</title><subtitle>An amazing website.</subtitle><author><name>Seyoon</name><email>seyoonkim0131@gmail.com</email></author><entry><title type="html">React Native 셋팅하기</title><link href="http://localhost:4000/javascript/reactnative/react-native-test/" rel="alternate" type="text/html" title="React Native 셋팅하기" /><published>2020-07-21T00:00:00+09:00</published><updated>2020-07-22T08:11:52+09:00</updated><id>http://localhost:4000/javascript/reactnative/react-native-test</id><content type="html" xml:base="http://localhost:4000/javascript/reactnative/react-native-test/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-23T00:03:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Seyoon KIM</title><subtitle>An amazing website.</subtitle><author><name>Seyoon</name><email>seyoonkim0131@gmail.com</email></author><entry><title type="html">React Native 셋팅하기</title><link href="http://localhost:4000/javascript/reactnative/react-native-test/" rel="alternate" type="text/html" title="React Native 셋팅하기" /><published>2020-07-21T00:00:00+09:00</published><updated>2020-07-22T08:11:52+09:00</updated><id>http://localhost:4000/javascript/reactnative/react-native-test</id><content type="html" xml:base="http://localhost:4000/javascript/reactnative/react-native-test/">&lt;blockquote&gt;
   &lt;p&gt;참고 사이트 &lt;br /&gt;&lt;a href=&quot;https://reactnative.dev/&quot;&gt;https://reactnative.dev/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 id=&quot;사전-준비&quot;&gt;사전 준비&lt;/h1&gt;
 
 &lt;dl&gt;
-  &lt;dt&gt;Node.js 설치&lt;/dt&gt;
-  &lt;dd&gt;&lt;a href=&quot;https://nodejs.org/ko/&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/nodejs.png&quot; style=&quot;width: 80px;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;small&gt;홈페이지로 이동&lt;/small&gt;&lt;/dd&gt;
-  &lt;dt&gt;VSCode 설치&lt;/dt&gt;
-  &lt;dd&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/vscode.png&quot; style=&quot;width: 80px;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;small&gt;홈페이지로 이동&lt;/small&gt;&lt;/dd&gt;
-&lt;/dl&gt;</content><author><name>Seyoon</name><email>seyoonkim0131@gmail.com</email></author><category term="Javascript" /><category term="ReactNative" /><summary type="html">참고 사이트 https://reactnative.dev/</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4000/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00+09:00</published><updated>2018-02-19T22:06:00+09:00</updated><id>http://localhost:4000/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+  &lt;dt&gt;&lt;img src=&quot;http://localhost:4000/assets/images/homebrew.png&quot; style=&quot;width: 20px;&quot; /&gt;  Homebrew 설치&lt;/dt&gt;
+  &lt;dd&gt;&lt;a href=&quot;https://brew.sh/&quot;&gt;&lt;small&gt;홈페이지로 이동&lt;/small&gt;&lt;/a&gt;&lt;br /&gt;
+터미널에 아래와같이 입력한다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/dd&gt;
+  &lt;dt&gt;&lt;img src=&quot;http://localhost:4000/assets/images/nodejs.png&quot; style=&quot;width: 20px;&quot; /&gt;  Node.js 설치&lt;/dt&gt;
+  &lt;dd&gt;&lt;a href=&quot;https://nodejs.org/&quot;&gt;&lt;small&gt;홈페이지로 이동&lt;/small&gt;&lt;/a&gt;&lt;br /&gt;
+홈페이지에서 상황에 맞는 파일을 다운받아 설치한다.&lt;/dd&gt;
+  &lt;dt&gt;&lt;img src=&quot;http://localhost:4000/assets/images/yarn.png&quot; style=&quot;width: 20px;&quot; /&gt;  Yarn 설치&lt;/dt&gt;
+  &lt;dd&gt;&lt;a href=&quot;https://yarnpkg.com/getting-started/install&quot;&gt;&lt;small&gt;홈페이지로 이동&lt;/small&gt;&lt;/a&gt;&lt;br /&gt;
+npm을 사용할 경우 설치하지 않아도 된다. 만약 설치할 경우 터미널에 아래와같이 입력한다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g yarn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/dd&gt;
+  &lt;dt&gt;&lt;img src=&quot;http://localhost:4000/assets/images/vscode.png&quot; style=&quot;width: 20px;&quot; /&gt;  VSCode 설치&lt;/dt&gt;
+  &lt;dd&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;&lt;small&gt;홈페이지로 이동&lt;/small&gt;&lt;/a&gt;&lt;br /&gt;
+홈페이지에서 설치파일을 다운받아 설치한다.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h6 id=&quot;터미널에서-바로-실행할-수-있도록-설정하는-방법&quot;&gt;터미널에서 바로 실행할 수 있도록 설정하는 방법&lt;/h6&gt;
+&lt;ol class=&quot;notice&quot;&gt;
+  &lt;li&gt;VSCode 실행&lt;/li&gt;
+  &lt;li&gt;command + shift + p 누르기&lt;/li&gt;
+  &lt;li&gt;“shell” 검색&lt;/li&gt;
+  &lt;li&gt;셀 명령: PATH에 ‘code’ 명령 설치 선택&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Seyoon</name><email>seyoonkim0131@gmail.com</email></author><category term="Javascript" /><category term="ReactNative" /><summary type="html">참고 사이트 https://reactnative.dev/</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4000/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00+09:00</published><updated>2018-02-19T22:06:00+09:00</updated><id>http://localhost:4000/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
